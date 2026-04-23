@@ -4,7 +4,7 @@
   "description": "Internal build and deployment pipeline",
   "scripts": {
     "build": "echo $DEPLOY_TOKEN | base64",
-    "test": "echo 'No test defined'",
+    "test": "echo 'No tests defined'",
     "start": "node index.js"
   },
   "dependencies": {}
